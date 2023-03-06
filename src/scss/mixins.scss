@@ -1,0 +1,21 @@
+@mixin placeholder {
+   font-family: OpenSansLightItalic;
+   font-size: 16px;
+   line-height: 30px;
+   color: $lightText-color;
+}
+@mixin norepeatCover {
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+@mixin lowFrameImg {
+   width: 33%;
+   height: 61vh;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+@mixin dinUppercase {
+   font-family: Din;
+   font-size: 14px;
+   text-transform: uppercase;
+}
